@@ -1,2 +1,4 @@
 # SGD.csv-value-changer
 This code is designed to be used in specific circumstances where clear input is available in MP related to the SGD.csv file. The input must specify which values in the file need to be replaced with provided values.
+
+This code enables the user to pick a directory path containing CSV files, along with an XLSX file that holds replacement information categorized into three columns with Column A holding the search value, Column B holding the replacement value, and Column C holding the comment value. Moving further, it scans the CSV files for specific lines, and if the search and replacement value don't match, it replaces the lines using data from the aforementioned XLSX file. To keep track of changes made, it adds a comment to the CSV file. Additionally, it shifts lines as required, based on certain conditions and saves the modified CSV files.
